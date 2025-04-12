@@ -1,2 +1,9 @@
-pydantic==2.5.3
-# add additional modules here
+pydantic>=2.10.3
+PyMuPDF==1.23.8
+pytest
+pytest-cov
+qdrant-client
+llama-index
+llama-index-vector-stores-qdrant
+openai
+fastapi

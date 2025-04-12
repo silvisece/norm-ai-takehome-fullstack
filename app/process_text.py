@@ -1,36 +1,9 @@
-
 from pydantic import BaseModel, Field
-import qdrant_client
-from llama_index.vector_stores.qdrant import QdrantVectorStore
-from llama_index.embeddings import OpenAIEmbedding
-from llama_index.llms import OpenAI
-from llama_index.schema import Document
-from llama_index import (
-    VectorStoreIndex,
-    ServiceContext,
-)
-from dataclasses import dataclass
-from datetime import datetime, date
-from typing import Optional
+from llama_index.core.schema import Document
+# from datetime import datetime, date
 import os
 import re
-
-key = os.environ['OPENAI_API_KEY']
-
-@dataclass
-class Input:
-    query: str
-    file_path: str
-
-@dataclass
-class Citation:
-    source: str
-    text: str
-
-class Output(BaseModel):
-    query: str
-    response: str
-    citations: list[Citation]
+import json
 
 class DocumentMetadata(BaseModel):
     level_id: str = Field(..., description="The identifier of the level (e.g., '6.11.1')")
@@ -39,7 +12,7 @@ class DocumentMetadata(BaseModel):
     # source_file: str = Field(..., description="Source document name")
     title: str = Field(..., description="Document title")
     # page_number: Optional[int] = Field(None, description="Page number in the source document")
-    parsed_at: date = Field(default_factory=date.today, description="Date document was parsed")
+    # parsed_at: date = Field(default_factory=date.today, description="Date document was parsed")
 
 
 class DocumentService(BaseModel):
@@ -56,7 +29,7 @@ class DocumentService(BaseModel):
         A line is considered a heading if it matches either:
         - numeric_heading_pattern (like "1.2.")
         - word_colon_pattern (like "Citations:")
-        
+
         Arguments:
             text: str - The text to chunk
             has_title: bool - Whether the text has a title line
@@ -93,7 +66,7 @@ class DocumentService(BaseModel):
         if has_title:
             start_index = 1
             title = lines[0]    
-        
+
         for line in lines[start_index:]:
             if _is_new_heading(line):
                 # Finalize the previous chunk if we have one
@@ -124,10 +97,10 @@ class DocumentService(BaseModel):
         """
         Enrich chunk metadata and output a list of Document objects.
         """
-        
+
         with open(self.file_path, 'r') as file:
             text = file.read()
-        
+
         docs = []
         chunks, title = self.chunk_text(text, has_title=True)
         # add metadata to each chunk
@@ -136,7 +109,7 @@ class DocumentService(BaseModel):
                 level_id=chunk['heading'],
                 section_id=chunk['heading'].split('.')[0],
                 title=title,
-                parsed_at=datetime.now().date()
+                # parsed_at=datetime.now().date()
             )
 
             docs.append(Document(
@@ -146,64 +119,24 @@ class DocumentService(BaseModel):
 
         return docs
 
-class QdrantService:
-    def __init__(self, k: int = 2):
-        self.index = None
-        self.k = k
+    @staticmethod
+    def save_docs_to_json(docs: list[Document], path: str) -> None:
+        docs_dict = [doc.to_dict() for doc in docs]
+        with open(path, "w") as f:
+            json.dump(docs_dict, f, indent=2)
 
-    def connect(self) -> None:
-        client = qdrant_client.QdrantClient(location=":memory:")
-
-        vstore = QdrantVectorStore(client=client, collection_name='temp')
-
-        service_context = ServiceContext.from_defaults(
-            embed_model=OpenAIEmbedding(),
-            llm=OpenAI(api_key=key, model="gpt-4o")
-            )
-
-        self.index = VectorStoreIndex.from_vector_store(
-            vector_store=vstore, 
-            service_context=service_context
-            )
-
-    def load(self, docs = list[Document]):
-        self.index.insert_nodes(docs)
-
-    def query(self, query_str: str) -> Output:
-
-        """
-        This method needs to initialize the query engine, run the query, and return
-        the result as a pydantic Output class. This is what will be returned as
-        JSON via the FastAPI endpount. 
-        worth noting:llama-index package has a CitationQueryEngine...
-
-        Also, be sure to make use of self.k (the number of vectors to return based
-        on semantic similarity).
-
-        # Example output object
-        citations = [
-            Citation(source="Law 1", text="Theft is punishable by hanging"),
-            Citation(source="Law 2", text="Tax evasion is punishable by banishment."),
-        ]
-
-        output = Output(
-            query=query_str, 
-            response=response_text, 
-            citations=citations
-            )
-
-        return output
-
-        """
+    @staticmethod
+    def read_docs_from_json(path: str) -> list[Document]:
+        with open(path, "r") as f:
+            docs_dict = json.load(f)
+        return [Document.from_dict(doc_dict) for doc_dict in docs_dict]
 
 
 if __name__ == "__main__":
-    # Example workflow
-    doc_serivce = DocumentService() # implemented
-    docs = doc_serivce.create_documents() # NOT implemented
 
-    index = QdrantService() # implemented
-    index.connect() # implemented
-    index.load() # implemented
+    file_path = 'docs/laws_text.txt'
+    output_path = 'docs/laws_processed.json'
 
-    index.query("what happens if I steal?") # NOT implemented
+    document_service = DocumentService(file_path=file_path)
+    docs = document_service.create_documents()
+    document_service.save_docs_to_json(docs, output_path)

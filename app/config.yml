@@ -1,0 +1,9 @@
+# Paths
+pdf_file_path: 'docs/laws.pdf'
+parsed_file_path: 'docs/laws_text.txt'
+processed_file_path: 'docs/laws_processed.json'
+
+# RAG parameters
+llm_model: 'gpt-4'
+embed_model: 'text-embedding-ada-002'
+k: 5

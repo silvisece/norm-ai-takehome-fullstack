@@ -1,0 +1,1217 @@
+[
+  {
+    "id_": "618d0ec4-15d4-4379-9313-27cb6ded8eb6",
+    "embedding": null,
+    "metadata": {
+      "level_id": "1.",
+      "section_id": "1",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Peace",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Peace"
+  },
+  {
+    "id_": "d9386338-d4fe-4f37-ab08-51fd157b38c5",
+    "embedding": null,
+    "metadata": {
+      "level_id": "1.1.",
+      "section_id": "1",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The law requires petty lords and landed knights to take their disputes to their liege lord, and abide by his judgment, while disputes between great houses were adjudicated by the Crown.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The law requires petty lords and landed knights to take their disputes to their liege lord, and abide by his judgment, while disputes between great houses were adjudicated by the Crown."
+  },
+  {
+    "id_": "60bccdf2-4161-4159-8a3f-6337b19f69a3",
+    "embedding": null,
+    "metadata": {
+      "level_id": "2.",
+      "section_id": "2",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Religion",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Religion"
+  },
+  {
+    "id_": "2aa5084c-a713-4cc0-aa30-02c0d1aacc6d",
+    "embedding": null,
+    "metadata": {
+      "level_id": "2.1.",
+      "section_id": "2",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "king Maegor raised a set of laws which forbade holy men from carrying arms",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "king Maegor raised a set of laws which forbade holy men from carrying arms"
+  },
+  {
+    "id_": "285737fe-e65d-44f9-b898-325b9ac9a120",
+    "embedding": null,
+    "metadata": {
+      "level_id": "3.",
+      "section_id": "3",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Widows",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Widows"
+  },
+  {
+    "id_": "a12dc52e-74cd-4b78-ae51-6e7277c8448d",
+    "embedding": null,
+    "metadata": {
+      "level_id": "3.1.",
+      "section_id": "3",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The Widow's Law reaffirms the right of the eldest son (or eldest daughter, if there are no sons) to inherit.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The Widow's Law reaffirms the right of the eldest son (or eldest daughter, if there are no sons) to inherit."
+  },
+  {
+    "id_": "9e2c684b-5903-4d51-b8ad-019a285600ec",
+    "embedding": null,
+    "metadata": {
+      "level_id": "3.1.1.",
+      "section_id": "3",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "However, the law requires the heirs to maintain their father's surviving widow, no matter whether she had been a second, third, or even later wife, under the same conditions as she had been before her husband\u2019s death.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "However, the law requires the heirs to maintain their father's surviving widow, no matter whether she had been a second, third, or even later wife, under the same conditions as she had been before her husband\u2019s death."
+  },
+  {
+    "id_": "c0811688-e0a8-46b3-9b9e-499f8ad1b5b1",
+    "embedding": null,
+    "metadata": {
+      "level_id": "3.1.2.",
+      "section_id": "3",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The widows could no longer be driven from their late husband\u2019s castle, deprived of her servants or possessions, or her income.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The widows could no longer be driven from their late husband\u2019s castle, deprived of her servants or possessions, or her income."
+  },
+  {
+    "id_": "4fd02005-d1f6-4275-9b71-882295369868",
+    "embedding": null,
+    "metadata": {
+      "level_id": "3.1.3.",
+      "section_id": "3",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The law similarly prevented men from disinheriting the children from an earlier marriage in favor of children from a later marriage",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The law similarly prevented men from disinheriting the children from an earlier marriage in favor of children from a later marriage"
+  },
+  {
+    "id_": "ab61a85e-100a-4cf1-8d78-1f668fdfb9cd",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Trials",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Trials"
+  },
+  {
+    "id_": "4e58f620-ab2d-41a4-9c17-09580114eff3",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.1.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Trials of the Crown",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Trials of the Crown"
+  },
+  {
+    "id_": "854af51d-c0f1-46f6-bb8c-2d9f242a7bea",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.1.1.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Trials, at least among the nobility, often begin with a prayer from a septon beseeching the Father Above to guide them towards justice. The accused and witnesses are sworn to honesty before he gives testimony at a trial. The accused is allowed to be present as witnesses give their testimony, in front of one or multiple judges.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Trials, at least among the nobility, often begin with a prayer from a septon beseeching the Father Above to guide them towards justice. The accused and witnesses are sworn to honesty before he gives testimony at a trial. The accused is allowed to be present as witnesses give their testimony, in front of one or multiple judges."
+  },
+  {
+    "id_": "82a6067a-51cc-4a8e-9271-a16381f82d27",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.2.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Trials by combat",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Trials by combat"
+  },
+  {
+    "id_": "c0e4b432-5602-4571-8c97-a2420efe7801",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.2.1.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Any knight accused of wrongdoing is allowed by law to demand a trial by combat. The right to a trial by combat also extends to nobles who are not knighted.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Any knight accused of wrongdoing is allowed by law to demand a trial by combat. The right to a trial by combat also extends to nobles who are not knighted."
+  },
+  {
+    "id_": "5cdaba71-d9ec-4f50-9999-d4306d453993",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.2.2.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The accused and accusers are allowed to have champions fight in their place. When a person is killed in a trial by combat, by law it is not considered murder.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The accused and accusers are allowed to have champions fight in their place. When a person is killed in a trial by combat, by law it is not considered murder."
+  },
+  {
+    "id_": "f3a55b4b-83ba-4eb3-b6e5-0fd70e9e685e",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.2.3.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "A more ancient custom, though seldom used, is a trial of seven, in which seven men fight on the side of the accusing party, and seven on the side of the accused party",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "A more ancient custom, though seldom used, is a trial of seven, in which seven men fight on the side of the accusing party, and seven on the side of the accused party"
+  },
+  {
+    "id_": "95992bc6-3ab9-4018-bcb0-6c4e6c8d6a73",
+    "embedding": null,
+    "metadata": {
+      "level_id": "4.2.4.",
+      "section_id": "4",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "When the person who stands accused is royalty, their champion has to be a knight of the Kingsguard. When the accuser is royalty, however, they are within their rights to select a champion who is not a sworn member of the Kingsguard.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "When the person who stands accused is royalty, their champion has to be a knight of the Kingsguard. When the accuser is royalty, however, they are within their rights to select a champion who is not a sworn member of the Kingsguard."
+  },
+  {
+    "id_": "e6a4b04d-1b51-41e9-b994-41477539b67a",
+    "embedding": null,
+    "metadata": {
+      "level_id": "5.",
+      "section_id": "5",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Taxes",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Taxes"
+  },
+  {
+    "id_": "24b8d5ac-733a-4ae0-9923-da4c76913960",
+    "embedding": null,
+    "metadata": {
+      "level_id": "5.1.",
+      "section_id": "5",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "In the Seven Kingdoms, taxes are collected locally.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "In the Seven Kingdoms, taxes are collected locally."
+  },
+  {
+    "id_": "bfe14de6-f7cd-45b0-9766-0150aeff3052",
+    "embedding": null,
+    "metadata": {
+      "level_id": "5.1.1.",
+      "section_id": "5",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Lords pay taxes to the crown.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Lords pay taxes to the crown."
+  },
+  {
+    "id_": "c3e558f7-0cdd-4232-b9b6-4d4f84631d7c",
+    "embedding": null,
+    "metadata": {
+      "level_id": "5.1.2.",
+      "section_id": "5",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The Great Houses gather the taxes from their region.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The Great Houses gather the taxes from their region."
+  },
+  {
+    "id_": "6cb20e05-4d77-4edb-85fd-852c83a73fe5",
+    "embedding": null,
+    "metadata": {
+      "level_id": "5.1.2.1.",
+      "section_id": "5",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The Great Houses subsequently pay their taxes to the Crown. An exception are taxes owed to the Night\u2019s Watch by the villages and holdfasts located in the New Gift which are paid in kind, not in gold.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The Great Houses subsequently pay their taxes to the Crown. An exception are taxes owed to the Night\u2019s Watch by the villages and holdfasts located in the New Gift which are paid in kind, not in gold."
+  },
+  {
+    "id_": "7d7ef7c2-9a88-47fd-92d7-d9ea60c5cb5f",
+    "embedding": null,
+    "metadata": {
+      "level_id": "5.2.",
+      "section_id": "5",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Lords can have treasurers in their service to handle the incoming taxes.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Lords can have treasurers in their service to handle the incoming taxes."
+  },
+  {
+    "id_": "4338a52d-bb29-48e6-a138-2592a1a96419",
+    "embedding": null,
+    "metadata": {
+      "level_id": "6.",
+      "section_id": "6",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Thievery",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Thievery"
+  },
+  {
+    "id_": "4e69db72-6cb2-491c-8fd5-a2fcd7b097b8",
+    "embedding": null,
+    "metadata": {
+      "level_id": "6.1.",
+      "section_id": "6",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "It is customary for a thief to be punished by losing a finger or a hand.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "It is customary for a thief to be punished by losing a finger or a hand."
+  },
+  {
+    "id_": "62ec3985-4912-45ad-a9fd-ee3bd5be7c37",
+    "embedding": null,
+    "metadata": {
+      "level_id": "6.2.",
+      "section_id": "6",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Pickpockets can likewise be punished by cutting off a hand.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Pickpockets can likewise be punished by cutting off a hand."
+  },
+  {
+    "id_": "a2266874-03a8-45e5-875e-244c4848406d",
+    "embedding": null,
+    "metadata": {
+      "level_id": "6.3.",
+      "section_id": "6",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Those who steal from a sept can be considered to have stolen from the gods, and thus receive a harsher punishment.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Those who steal from a sept can be considered to have stolen from the gods, and thus receive a harsher punishment."
+  },
+  {
+    "id_": "16af18d2-1a35-401a-ae04-a7b587ffba3e",
+    "embedding": null,
+    "metadata": {
+      "level_id": "7.",
+      "section_id": "7",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Poaching",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Poaching"
+  },
+  {
+    "id_": "73a8321f-0c13-4029-9bb0-7a37e0d54f0d",
+    "embedding": null,
+    "metadata": {
+      "level_id": "7.1.",
+      "section_id": "7",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Poaching is forbidden. Lords are generally not tolerant towards poachers and punishments for poaching can include being forced to join the Night's Watch, losing a hand, or being forced to row ships.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Poaching is forbidden. Lords are generally not tolerant towards poachers and punishments for poaching can include being forced to join the Night's Watch, losing a hand, or being forced to row ships."
+  },
+  {
+    "id_": "ee66a69a-a6c2-40e2-b406-5747ff6a4f54",
+    "embedding": null,
+    "metadata": {
+      "level_id": "8.",
+      "section_id": "8",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Outlawry",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Outlawry"
+  },
+  {
+    "id_": "4f28a3e1-870d-4a90-ab09-a8bf0be249f3",
+    "embedding": null,
+    "metadata": {
+      "level_id": "8.1.",
+      "section_id": "8",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Outlaws are generally sentenced to death by hanging.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Outlaws are generally sentenced to death by hanging."
+  },
+  {
+    "id_": "400db8fe-d69e-482d-a6e6-d5100fecebbe",
+    "embedding": null,
+    "metadata": {
+      "level_id": "9.",
+      "section_id": "9",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Slavery",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Slavery"
+  },
+  {
+    "id_": "6e9e3721-d1eb-4afa-9705-9007c36f7c1c",
+    "embedding": null,
+    "metadata": {
+      "level_id": "9.1.",
+      "section_id": "9",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Slavery is illegal in the Seven Kingdoms.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Slavery is illegal in the Seven Kingdoms."
+  },
+  {
+    "id_": "2a9b5c95-18de-4704-ac24-7caed2dcbef5",
+    "embedding": null,
+    "metadata": {
+      "level_id": "9.1.1.",
+      "section_id": "9",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Both the old gods and the Faith of the Seven consider slavery to be an abomination, and as such, there have been no slaves in the Seven Kingdoms for thousands of years",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Both the old gods and the Faith of the Seven consider slavery to be an abomination, and as such, there have been no slaves in the Seven Kingdoms for thousands of years"
+  },
+  {
+    "id_": "e6dadda5-e4a0-4c14-aee3-d49a1addbd1e",
+    "embedding": null,
+    "metadata": {
+      "level_id": "9.1.2.",
+      "section_id": "9",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "The punishment for selling people in the Seven Kingdoms is execution",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "The punishment for selling people in the Seven Kingdoms is execution"
+  },
+  {
+    "id_": "531b8b0d-89b7-4e77-bcdc-120e44447279",
+    "embedding": null,
+    "metadata": {
+      "level_id": "10.",
+      "section_id": "10",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Watch",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Watch"
+  },
+  {
+    "id_": "e0d2f604-14e3-427a-b958-73b645496736",
+    "embedding": null,
+    "metadata": {
+      "level_id": "10.1.",
+      "section_id": "10",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "An alternative for most punishments is joining the Night's Watch.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "An alternative for most punishments is joining the Night's Watch."
+  },
+  {
+    "id_": "adfc9c87-ba7e-4a04-bc38-71f34c9b29f6",
+    "embedding": null,
+    "metadata": {
+      "level_id": "10.1.1.",
+      "section_id": "10",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Debtors, poachers, thieves, and murderers are among those who might be forced to join the black brothers on the Wall.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Debtors, poachers, thieves, and murderers are among those who might be forced to join the black brothers on the Wall."
+  },
+  {
+    "id_": "b3b84497-3346-41bf-b4c8-16399e09ab12",
+    "embedding": null,
+    "metadata": {
+      "level_id": "10.1.1.1.",
+      "section_id": "10",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Men of the Night's Watch are required to swear a vow, by which means their crimes are washed away and all debts are forgiven.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Men of the Night's Watch are required to swear a vow, by which means their crimes are washed away and all debts are forgiven."
+  },
+  {
+    "id_": "116c1314-26a9-4093-81d2-cb66443352f7",
+    "embedding": null,
+    "metadata": {
+      "level_id": "10.1.1.2.",
+      "section_id": "10",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Breaking the oath made to the Night's Watch is punishable by death.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Breaking the oath made to the Night's Watch is punishable by death."
+  },
+  {
+    "id_": "36477bf9-fa4a-4615-abb3-4026629c80fe",
+    "embedding": null,
+    "metadata": {
+      "level_id": "10.1.1.3.",
+      "section_id": "10",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Refusing orders made by the Lord Commander of the Night's Watch can also be punishable by death.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Refusing orders made by the Lord Commander of the Night's Watch can also be punishable by death."
+  },
+  {
+    "id_": "b70db933-b9f7-4145-a448-3389fb2b54ff",
+    "embedding": null,
+    "metadata": {
+      "level_id": "10.1.1.4.",
+      "section_id": "10",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Women are not allowed to join the Night's Watch.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Women are not allowed to join the Night's Watch."
+  },
+  {
+    "id_": "868c0dab-efd7-4cdf-a4e8-36d58ad06b76",
+    "embedding": null,
+    "metadata": {
+      "level_id": "11.",
+      "section_id": "11",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "Baking",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "Baking"
+  },
+  {
+    "id_": "343ab361-9747-4840-b3d0-0f916385bd16",
+    "embedding": null,
+    "metadata": {
+      "level_id": "11.1.",
+      "section_id": "11",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "A baker who mixes sawdust in his flour, might be fined. If such a fine cannot be paid, he might be whipped instead.",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "A baker who mixes sawdust in his flour, might be fined. If such a fine cannot be paid, he might be whipped instead."
+  },
+  {
+    "id_": "e00418b7-7ba7-4849-a9bf-97c30511c111",
+    "embedding": null,
+    "metadata": {
+      "level_id": "Citations:",
+      "section_id": "Citations:",
+      "title": "Laws of the Seven Kingdoms"
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text_resource": {
+      "embeddings": null,
+      "text": "https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=4273&context=sclr https://awoiaf.westeros.org/index.php/Laws_and_justice_of_the_Seven_Kingdoms https://gameofthrones.fandom.com/wiki/Laws_and_customs",
+      "path": null,
+      "url": null,
+      "mimetype": null
+    },
+    "image_resource": null,
+    "audio_resource": null,
+    "video_resource": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "Document",
+    "text": "https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=4273&context=sclr https://awoiaf.westeros.org/index.php/Laws_and_justice_of_the_Seven_Kingdoms https://gameofthrones.fandom.com/wiki/Laws_and_customs"
+  }
+]
