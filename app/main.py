@@ -4,6 +4,7 @@ from the Sept?" and returns a JSON response serialized from the Pydantic Output 
 """
 import yaml
 from fastapi import FastAPI, Query, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from llama_index.core.schema import Document
 from app.qdrant_service import QdrantService, Output
@@ -12,8 +13,15 @@ from app.process_text import DocumentService
 with open("app/config.yml", 'r') as file:
     config = yaml.safe_load(file)
 
-app = FastAPI()
 qdrant_service = QdrantService(k=config['k'])
+app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Adjust this to your frontend's URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.on_event("startup")
 def startup_event():

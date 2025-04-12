@@ -10,6 +10,7 @@ from llama_index.core.query_engine import CitationQueryEngine
 from dataclasses import dataclass
 import os
 import yaml
+import re
 
 key = os.environ['OPENAI_API_KEY']
 
@@ -108,15 +109,20 @@ class QdrantService:
             node = node_with_score.node
             score = str(round(node_with_score.score, 2))
             metadata = node.metadata
-            source = f"{metadata.get('title')} - {metadata.get('level_id')}"
+            source = f"[{i}] {metadata.get('title')} - {metadata.get('level_id')}"
             text = node.get_text()
+            text = re.sub(r'^Source \d+:\s*', '', text) # Remove "Source #:" pattern 
             citations.append(Citation(source=source, text=text, score=score))
+
+        # Get citation indices from response, reindex
+        citation_indices = sorted(set(int(match) for match in re.findall(r'\[(\d+)\]', str(response))))
+        filtered_citations = [citations[i - 1] for i in citation_indices if 1 <= i <= len(citations)]
 
         # Create the Output object
         output = Output(
             query=query_str,
             response=str(response),
-            citations=citations
+            citations=filtered_citations
         )
 
         return output

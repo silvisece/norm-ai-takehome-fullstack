@@ -27,3 +27,9 @@ build/
 # OS specific files
 .DS_Store
 Thumbs.db 
+
+# Ignore node_modules
+node_modules/
+
+# Ignore Next.js build output
+.next/
